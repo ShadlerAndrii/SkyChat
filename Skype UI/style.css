@@ -1,0 +1,456 @@
+/* ===== ГЛОБАЛЬНЕ ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ===== АВТОРИЗАЦІЯ ===== */
+
+.auth-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.auth-container input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background: #0056b3;
+}
+
+.toggle {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* ===== НАЛАШТУВАННЯ КОРИСТУВАЧА ===== */
+
+.settings-window {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+.settings-window input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.settings-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* ===== ЧАТ ===== */
+
+.chat-layout {
+    display: flex;
+    gap: 20px;
+}
+
+/* Ліворуч — список чатів */
+
+.chat-list {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.chat-item {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.chat-item:hover {
+    background: #ddd;
+}
+
+.chat-item.active {
+    background: #007bff;
+    color: white;
+}
+
+/* Праворуч — вікно повідомлень */
+
+.chat-messages {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.messages {
+    overflow-y: auto;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    max-height: 480px;
+}
+
+.message {
+    margin-bottom: 5px;
+}
+
+.message .time {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 5px;
+}
+
+/* Поле вводу нового повідомлення */
+
+.new-message {
+    display: flex;
+    gap: 5px;
+}
+
+.new-message input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.new-message button {
+    padding: 8px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-message button:hover {
+    background: #0056b3;
+}
+
+/* ===== ХЕДЕР ЧАТУ ===== */
+
+.chat-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(4px);
+}
+
+.chat-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.chat-header h5 {
+    margin: 3px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #000;
+}
+
+/* Кнопка "⚙ Налаштувати" */
+
+.settings-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #888;
+    background: #f0f0f0;
+    transition: 0.2s;
+}
+
+.settings-btn:hover {
+    background: #e0e0e0;
+}
+
+.settings-btn:active {
+    transform: scale(0.95);
+}
+
+/* ===== МОДАЛКА ===== */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.modal-content h3 {
+    margin: 0 0 15px;
+}
+
+.modal-content label {
+    display: block;
+    margin: 10px 0 4px;
+    font-size: 14px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.modal-content button {
+    margin-top: 15px;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background: #2d7dff;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.modal-content button:hover {
+    background: #1d5ed1;
+}
+
+.modal-content button:last-child {
+    background: #ccc;
+    color: #000;
+    margin-left: 10px;
+}
+
+.modal-content button:last-child:hover {
+    background: #b8b8b8;
+}
+
+/* Кнопка створення чату */
+.create-chat-btn {
+    margin-bottom: 10px;
+}
+
+.chat-header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.delete-chat-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+
+    border-radius: 6px;
+    border: 1px solid #c33;
+    background: #ffdddd;
+    color: #a00;
+
+    transition: 0.2s;
+}
+
+.delete-chat-btn:hover {
+    background: #ffbdbd;
+}
+
+.delete-chat-btn:active {
+    transform: scale(0.95);
+}
+
+.chat-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; /* відстань між кнопками */
+}
+
+.settings-btn,
+.delete-chat-btn {
+    width: 200px;      /* можеш змінити */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-btn {
+    background: #e0e0e0;
+}
+
+.delete-chat-btn {
+    background: #ff4d4d;
+    color: white;
+}
+
+.call-chat-btn {
+    width: 200px;       /* однакова ширина з іншими кнопками */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4CAF50; /* зелений, виділяється */
+    color: white;
+    margin-top: 5px;
+    transition: 0.2s;
+}
+
+.call-chat-btn:hover {
+    background: #45a049;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  max-height: 480px; /* підлаштуй під свій layout */
+  overflow-y: auto;
+}
+
+/* Один "прямокутник" повідомлення */
+.message {
+  display: flex;
+  justify-content: flex-start; /* за замовчуванням ліворуч */
+}
+
+/* Тіло повідомлення */
+.message-body {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  max-width: 75%;
+  word-break: break-word;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+/* Власні повідомлення — справа та інший колір */
+.message.my {
+  justify-content: flex-end;
+}
+.message.other {
+  justify-content: flex-start;
+}
+.message.my .message-body {
+  background: #dcf8c6; 
+  border-color: rgba(0,0,0,0.25);
+}
+.message.other .message-body {
+  background: #c9eaff;
+  border-color: rgba(0,0,0,0.25);
+}
+
+/* Трохи стилізації тексту */
+.message-owner {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.message-text {
+  font-size: 0.95rem;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.message-meta {
+  font-size: 0.78rem;
+  color: #666;
+  text-align: right;
+}
+
+/* Коли немає повідомлень */
+.no-messages {
+  padding: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.call-dropdown-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.call-chat-btn {
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.call-dropdown {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-width: 160px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    z-index: 999;
+}
+
+.call-option {
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.call-option:hover {
+    background: #f1f1f1;
+}

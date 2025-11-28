@@ -1,0 +1,323 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\controllers\\messagedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:controllers\\messagedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:controllers\\userdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\repositories\\repositorychats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorychats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\controllers\\chatdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:controllers\\chatdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\controllers\\settingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:controllers\\settingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\dtos\\chatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:dtos\\chatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\dtos\\messagesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:dtos\\messagesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\repositories\\repositorysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\repositories\\repositoryusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositoryusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|b:\\study\\kpi\\\u043A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\skype\\data\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:data\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Data\\User.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\User.cs",
+              "RelativeToolTip": "Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:21:19.998Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Setting.cs",
+              "RelativeDocumentMoniker": "Data\\Setting.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Setting.cs",
+              "RelativeToolTip": "Data\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:22:32.486Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Chat.cs",
+              "RelativeDocumentMoniker": "Data\\Chat.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Chat.cs",
+              "RelativeToolTip": "Data\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:21:55.493Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatUser.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\ChatUser.cs",
+              "RelativeDocumentMoniker": "Data\\ChatUser.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\ChatUser.cs",
+              "RelativeToolTip": "Data\\ChatUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:38:16.187Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Message.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Message.cs",
+              "RelativeDocumentMoniker": "Data\\Message.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Message.cs",
+              "RelativeToolTip": "Data\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:24:20.8Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Call.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Call.cs",
+              "RelativeDocumentMoniker": "Data\\Call.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\Call.cs",
+              "RelativeToolTip": "Data\\Call.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:24:48.85Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDataController.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\UserDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserDataController.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\UserDataController.cs",
+              "RelativeToolTip": "Controllers\\UserDataController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:50:18.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingDataController.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\SettingDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SettingDataController.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\SettingDataController.cs",
+              "RelativeToolTip": "Controllers\\SettingDataController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:31:04.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatDataController.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\ChatDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatDataController.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\ChatDataController.cs",
+              "RelativeToolTip": "Controllers\\ChatDataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:04:06.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageDataController.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\MessageDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessageDataController.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Controllers\\MessageDataController.cs",
+              "RelativeToolTip": "Controllers\\MessageDataController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:32:38.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MessagesDTO.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\DTOs\\MessagesDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\MessagesDTO.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\DTOs\\MessagesDTO.cs",
+              "RelativeToolTip": "DTOs\\MessagesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T20:20:43.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatsDTO.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\DTOs\\ChatsDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ChatsDTO.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\DTOs\\ChatsDTO.cs",
+              "RelativeToolTip": "DTOs\\ChatsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:52:02.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:19:25.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAApwGAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:16:56.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepositoryUsers.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryUsers.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryUsers.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryUsers.cs",
+              "RelativeToolTip": "Repositories\\RepositoryUsers.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:52:12.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RepositorySettings.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositorySettings.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositorySettings.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositorySettings.cs",
+              "RelativeToolTip": "Repositories\\RepositorySettings.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAhwDQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:31:29.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryChats.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryChats.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryChats.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryChats.cs",
+              "RelativeToolTip": "Repositories\\RepositoryChats.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T20:04:25.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositoryMessages.cs",
+              "DocumentMoniker": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryMessages.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryMessages.cs",
+              "ToolTip": "B:\\Study\\KPI\\\u041A\u0443\u0440\u0441\u043E\u0432\u0456\\\u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0456\u0457 \u0440\u043E\u0437\u0440\u043E\u0431\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043D\u043E\u0433\u043E \u0437\u0430\u0431\u0435\u0437\u043F\u0435\u0447\u0435\u043D\u043D\u044F\\3 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Skype\\Repositories\\RepositoryMessages.cs",
+              "RelativeToolTip": "Repositories\\RepositoryMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T11:33:04.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

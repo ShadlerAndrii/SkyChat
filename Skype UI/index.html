@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SkyChat</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Vue 3 CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Axios CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="auth-container" v-if="!isAuthenticated">
+            <h2>{{ isLogin ? 'Логін' : 'Реєстрація' }}</h2>
+
+            <template v-if="isLogin">
+                <input type="text" v-model="user.username" placeholder="Логін">
+                <input type="password" v-model="user.password" placeholder="Пароль"
+                    @keyup.enter="submitLoginRegisterForm">
+            </template>
+
+            <template v-if="!isLogin">
+                <input type="text" v-model="user.name" placeholder="Ваше ім'я">
+                <input type="text" v-model="user.username" placeholder="Логін (username)">
+                <input type="tel" v-model="user.phone" placeholder="Телефон">
+                <input type="password" v-model="user.password" placeholder="Пароль"
+                    @keyup.enter="submitLoginRegisterForm">
+            </template>
+
+            <button @click="submitLoginRegisterForm">
+                {{ isLogin ? 'Увійти' : 'Зареєструватись' }}
+            </button>
+
+            <button @click="toggleMode" class="toggle">
+                {{ isLogin ? 'Зареєструватися' : 'Увійти' }}
+            </button>
+        </div>
+
+        <div class="chat-container" v-else>
+            <h2>Ласкаво просимо, {{ user.name }} ({{ user.username }})!</h2>
+
+            <button class="create-chat-btn" @click="showCreateChat = true">
+                Створити чат
+            </button>
+
+            <div class="modal" v-if="showCreateChat">
+                <div class="modal-content">
+                    <h3>Створення нового чату</h3>
+                    <br>
+                    <label>Назва:</label>
+                    <input type="text" v-model="newChat.name">
+                    <br>
+                    <label>Опис:</label>
+                    <input type="text" v-model="newChat.description">
+                    <br>
+                    <label>Учасники (Usernames) через кому:</label>
+                    <input type="text" v-model="newChat.usernames" placeholder="user1, user2, user3">
+                    <hr>
+                    <div class="modal-buttons">
+                        <button @click="createChat">Створити</button>
+                        <button @click="showCreateChat = false">Скасувати</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Список повідомлень -->
+            <div class="chat-layout">
+                <!-- Ліворуч: список чатів -->
+                <div class="chat-list">
+                    <h3>Чати:</h3>
+                    <div v-if="Array.isArray(chats.chatsList) && chats.chatsList.length">
+                        <div v-for="chat in chats.chatsList" :key="chat.Id" class="chat-item"
+                            :class="{ active: chats.selectedChat && chats.selectedChat.Id === chat.Id }"
+                            @click="selectChat(chat)">
+                            {{ chat.Name }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-header" v-if="chats.selectedChat">
+                    <div class="chat-header-top">
+
+                        <div class="chat-header-main">
+                            <h3>{{ chats.selectedChat.Name }}</h3>
+                            <h5>{{ chats.selectedChat.Description }}</h5>
+                            <br>
+
+                            <button @click="openChatSettings" class="settings-btn">
+                                ⚙ Налаштувати
+                            </button>
+
+                            <div class="call-dropdown-wrapper">
+                                <button @click="toggleCallMenu" class="call-chat-btn">
+                                    📞 Дзвінок
+                                </button>
+
+                                <div v-if="showCallMenu" class="call-dropdown">
+                                    <div class="call-option" @click="startMeetCall">Google Meet</div>
+                                    <div class="call-option" @click="startJitSiCall">Jit Si</div>
+                                </div>
+                            </div>
+
+
+                            <button @click="deleteChat" class="delete-chat-btn">
+                                🗑 Видалити
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div v-if="showChatSettings" class="modal">
+                    <div class="modal-content">
+                        <h3>Налаштування чату</h3>
+
+                        <label>Назва:</label>
+                        <input v-model="editChat.name" type="text">
+
+                        <label>Опис:</label>
+                        <input v-model="editChat.description" type="text">
+
+                        <label>Учасники:</label>
+                        <input v-model="editChat.usernames" type="text" placeholder="через кому">
+
+                        <button @click="editSelectedChat">Зберегти</button>
+                        <button @click="showChatSettings = false">Закрити</button>
+                    </div>
+                </div>
+
+                <!-- Праворуч: вікно повідомлень -->
+                <div class="chat-messages" v-if="chats.selectedChat" :style="{ 
+                        backgroundColor: settings.bgColor, 
+                        fontSize: settings.fontSize + 'px' }">
+
+
+                    <div class="messages" ref="msgContainer" :style="{
+                        backgroundColor: settings.bgColor }">
+                        <template v-if="messages.messagesList && messages.messagesList.length > 0">
+                            <div v-for="message in messages.messagesList" :key="message.Id" class="message" :class="{ 'my': String(message.OwnerId) === String(user.id),
+                                    'other': String(message.OwnerId) !== String(user.id) }">
+                                <div class="message-body">
+                                    <strong class="message-owner">{{ message.OwnerName }}</strong>
+                                    <div class="message-text">{{ message.Text }}</div>
+                                    <div class="message-meta">
+                                        <span class="time">{{ formatTime(message.TimeSend) }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+
+                        <div v-else class="no-messages">
+                            <p>Повідомлень немає.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="new-message">
+                        <input type="text" v-model="messages.newMessage" placeholder="Введіть повідомлення"
+                            @keyup.enter="sendMessage">
+                        <button @click="sendMessage">Відправити</button>
+                    </div>
+                </div>
+
+                <div class="chat-messages" v-else>
+                    <p>Оберіть чат зліва, щоб почати спілкування</p>
+                </div>
+            </div>
+        </div>
+
+        <div v-if="isAuthenticated" class="settings-button">
+            <button @click="showSettings = true">⚙️ Налаштування</button>
+        </div>
+
+        <div v-if="showSettings" class="settings-window">
+            <h3>Налаштування чату</h3>
+
+            <label>Колір фону:</label>
+            <input type="color" v-model="settings.bgColor">
+
+            <label>Розмір тексту:</label>
+            <input type="number" min="12" max="32" v-model="settings.fontSize">
+
+            <button @click="applySettings">Застосувати</button>
+            <br>
+            <hr>
+            <button @click="showSettings = false">Закрити</button>
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script> <!-- Підключення файлу app.js, завжди має бути в кінці -->
+
+</body>
+
+</html>
