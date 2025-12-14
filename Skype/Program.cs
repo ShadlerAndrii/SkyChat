@@ -23,6 +23,7 @@ builder.Services.AddSingleton<IMessageFormatter, PlainTextFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, MarkdownFormatter>();
 builder.Services.AddSingleton<ThirdPartyMarkdownFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, ThirdPartyMarkdownAdapter>();
+builder.Services.AddScoped<Skype.Formatting.Factory.IClientMessageFactory, Skype.Formatting.Factory.WebClientMessageFactory>();
 
 builder.Services.AddControllers();
 builder.Services.AddAuthentication(opt =>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Skype.Data;
-using Skype.Formatting;
+using Skype.Formatting.Factory;
 using static Skype.DTOs.MessagesDTO;
 
 namespace Skype.Repositories
@@ -8,12 +8,12 @@ namespace Skype.Repositories
     public class RepositoryMessages
     {
         AppDbContext _dbContext;
-        private readonly IEnumerable<IMessageFormatter> _formatters;
+        private readonly IClientMessageFactory _clientFactory;
 
-        public RepositoryMessages(AppDbContext dbContext, IEnumerable<IMessageFormatter> formatters)
+        public RepositoryMessages(AppDbContext dbContext, IClientMessageFactory clientFactory)
         {
             _dbContext = dbContext;
-            _formatters = formatters;
+            _clientFactory = clientFactory;
         }
 
         public async Task<List<MessageWithItsUserNameDTO>> GetMessageData(int chatId, string? formatName = null)
@@ -31,30 +31,25 @@ namespace Skype.Repositories
                         OwnerId = message.OwnerId,
                         TimeSend = message.TimeSend,
                         Text = message.Text,
-
                         OwnerName = user.Name,
                     }
                 )
                 .ToListAsync();
 
-            if (!string.IsNullOrEmpty(formatName))
+            var formatter = _clientFactory.CreateFormatter(formatName);
+            if (formatter != null)
             {
-                var formatter = _formatters.FirstOrDefault(f => f.Name == formatName);
-                if (formatter != null)
+                foreach (var dto in list)
                 {
-                    // Create a small Message instance for the formatter and replace DTO text
-                    foreach (var dto in list)
+                    var msg = new Message
                     {
-                        var msg = new Message
-                        {
-                            Id = dto.Id,
-                            ChatId = dto.ChatId,
-                            OwnerId = dto.OwnerId,
-                            TimeSend = dto.TimeSend,
-                            Text = dto.Text
-                        };
-                        dto.Text = formatter.Format(msg);
-                    }
+                        Id = dto.Id,
+                        ChatId = dto.ChatId,
+                        OwnerId = dto.OwnerId,
+                        TimeSend = dto.TimeSend,
+                        Text = dto.Text
+                    };
+                    dto.Text = formatter.Format(msg);
                 }
             }
 

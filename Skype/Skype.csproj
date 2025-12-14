@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Formatting\Factory\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 
