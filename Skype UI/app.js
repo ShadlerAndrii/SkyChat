@@ -69,7 +69,7 @@ createApp({
                 if (this.chats.selectedChat) {
                     this.getMessageData(this.chats.selectedChat.Id);
                 }
-            }, 30000); // Refresh every 30 seconds
+            }, 3000); // Refresh every 30 seconds
         },
         stopAutoRefresh() {
             if (this.messageRefreshInterval) {
