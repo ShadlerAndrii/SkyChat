@@ -3,11 +3,12 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Skype.Data;
 using Skype.Repositories;
+using Skype.Formatting;
+using Skype.Formatting.Legacy;
+using Skype.Formatting.Bridge;
 using System.Text;
 using Newtonsoft.Json.Serialization;
 using System.Text.Json.Serialization;
-using Skype.Formatting;
-using Skype.Formatting.Legacy;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,15 @@ builder.Services.AddSingleton<IMessageFormatter, PlainTextFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, MarkdownFormatter>();
 builder.Services.AddSingleton<ThirdPartyMarkdownFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, ThirdPartyMarkdownAdapter>();
+
+// Bridge registrations (implementation + abstraction)
+// register low-level renderers (implementations)
+builder.Services.AddSingleton<IRenderer, TextRenderer>();
+builder.Services.AddSingleton<IRenderer, MarkdownRenderer>();
+// register bridge-formatters (abstractions that use renderers)
+builder.Services.AddSingleton<IMessageFormatter, SimpleBridgeFormatter>();
+builder.Services.AddSingleton<IMessageFormatter, OwnerTimestampBridgeFormatter>();
+
 builder.Services.AddScoped<Skype.Formatting.Factory.IClientMessageFactory, Skype.Formatting.Factory.WebClientMessageFactory>();
 
 builder.Services.AddControllers();

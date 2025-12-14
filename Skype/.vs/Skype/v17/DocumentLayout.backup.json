@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 282,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
@@ -28,14 +32,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:38:07.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RepositoryMessages.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Repositories\\RepositoryMessages.cs",
               "RelativeDocumentMoniker": "Repositories\\RepositoryMessages.cs",
@@ -50,7 +54,7 @@
         },
         {
           "DockedWidth": 324,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,6 +63,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimpleBridgeFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\Bridge\\SimpleBridgeFormatter.cs",
+              "RelativeDocumentMoniker": "Formatting\\Bridge\\SimpleBridgeFormatter.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\Bridge\\SimpleBridgeFormatter.cs",
+              "RelativeToolTip": "Formatting\\Bridge\\SimpleBridgeFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:38:46.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
