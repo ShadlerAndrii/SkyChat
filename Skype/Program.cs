@@ -7,6 +7,7 @@ using System.Text;
 using Newtonsoft.Json.Serialization;
 using System.Text.Json.Serialization;
 using Skype.Formatting;
+using Skype.Formatting.Legacy;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,8 @@ builder.Services.AddScoped<RepositoryMessages>();
 // Strategy registrations (message formatting) - minimal, academic
 builder.Services.AddSingleton<IMessageFormatter, PlainTextFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, MarkdownFormatter>();
+builder.Services.AddSingleton<ThirdPartyMarkdownFormatter>();
+builder.Services.AddSingleton<IMessageFormatter, ThirdPartyMarkdownAdapter>();
 
 builder.Services.AddControllers();
 builder.Services.AddAuthentication(opt =>

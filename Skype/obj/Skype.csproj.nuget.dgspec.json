@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Микола\\source\\repos\\SkyChat\\Skype\\Skype.csproj": {}
+    "C:\\Users\\Микола\\Source\\Repos\\SkyChat\\Skype\\Skype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Микола\\source\\repos\\SkyChat\\Skype\\Skype.csproj": {
+    "C:\\Users\\Микола\\Source\\Repos\\SkyChat\\Skype\\Skype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Микола\\source\\repos\\SkyChat\\Skype\\Skype.csproj",
+        "projectUniqueName": "C:\\Users\\Микола\\Source\\Repos\\SkyChat\\Skype\\Skype.csproj",
         "projectName": "Skype",
-        "projectPath": "C:\\Users\\Микола\\source\\repos\\SkyChat\\Skype\\Skype.csproj",
+        "projectPath": "C:\\Users\\Микола\\Source\\Repos\\SkyChat\\Skype\\Skype.csproj",
         "packagesPath": "C:\\Users\\Микола\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Микола\\source\\repos\\SkyChat\\Skype\\obj\\",
+        "outputPath": "C:\\Users\\Микола\\Source\\Repos\\SkyChat\\Skype\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
