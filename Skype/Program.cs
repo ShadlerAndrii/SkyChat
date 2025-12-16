@@ -24,6 +24,7 @@ builder.Services.AddSingleton<IMessageFormatter, PlainTextFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, MarkdownFormatter>();
 builder.Services.AddSingleton<ThirdPartyMarkdownFormatter>();
 builder.Services.AddSingleton<IMessageFormatter, ThirdPartyMarkdownAdapter>();
+builder.Services.AddSingleton<IMessageFormatter, CompositeMessageFormatter>();
 
 // Bridge registrations (implementation + abstraction)
 // register low-level renderers (implementations)

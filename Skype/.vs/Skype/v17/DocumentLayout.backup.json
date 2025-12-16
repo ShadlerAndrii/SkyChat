@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\plaintextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\plaintextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\markdownformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\markdownformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\imessageformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\imessageformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:repositories\\repositorymessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|c:\\users\\\u043C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\skychat\\skype\\formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CE8E775-5A9D-4A28-BE3E-EDF68A60528F}|Skype.csproj|solutionrelative:formatting\\bridge\\simplebridgeformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,30 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 282,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlainTextFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\PlainTextFormatter.cs",
+              "RelativeDocumentMoniker": "Formatting\\PlainTextFormatter.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\PlainTextFormatter.cs",
+              "RelativeToolTip": "Formatting\\PlainTextFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:39:13.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MarkdownFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\MarkdownFormatter.cs",
+              "RelativeDocumentMoniker": "Formatting\\MarkdownFormatter.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\MarkdownFormatter.cs",
+              "RelativeToolTip": "Formatting\\MarkdownFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:39:11.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMessageFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\IMessageFormatter.cs",
+              "RelativeDocumentMoniker": "Formatting\\IMessageFormatter.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\IMessageFormatter.cs",
+              "RelativeToolTip": "Formatting\\IMessageFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T03:39:09.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:38:07.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RepositoryMessages.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Repositories\\RepositoryMessages.cs",
               "RelativeDocumentMoniker": "Repositories\\RepositoryMessages.cs",
               "ToolTip": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Repositories\\RepositoryMessages.cs",
               "RelativeToolTip": "Repositories\\RepositoryMessages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T01:57:10.071Z",
               "EditorCaption": ""
@@ -66,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SimpleBridgeFormatter.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u0438\u043A\u043E\u043B\u0430\\source\\repos\\SkyChat\\Skype\\Formatting\\Bridge\\SimpleBridgeFormatter.cs",
               "RelativeDocumentMoniker": "Formatting\\Bridge\\SimpleBridgeFormatter.cs",

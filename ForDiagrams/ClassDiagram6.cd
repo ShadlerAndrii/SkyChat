@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Skype.Controllers.ChatDataController">
+    <Position X="7.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAAAAAAAAAAAAABAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChatDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Controllers.MessageDataController">
+    <Position X="9.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Controllers.SettingDataController">
+    <Position X="5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SettingDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Controllers.UserDataController">
+    <Position X="2.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIBAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAE=</HashCode>
+      <FileName>UserDataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Repositories.RepositoryChats">
+    <Position X="7.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEQAAIAAAAAAAAAAAAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>RepositoryChats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Repositories.RepositoryMessages">
+    <Position X="9.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>RepositoryMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Repositories.RepositorySettings">
+    <Position X="5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAABICAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>RepositorySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skype.Repositories.RepositoryUsers">
+    <Position X="2.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAggACAAAAAAAAAIAAAAAAABAAAAE=</HashCode>
+      <FileName>RepositoryUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Skype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbe43ae5d61fa63abd6251dd9e15388e4e69f9ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28c78b277c4df8794d6847c2c1e99bafb1611f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("Skype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Skype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
